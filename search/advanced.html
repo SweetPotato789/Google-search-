@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <!-- coloring, positin and font -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-color: aqua;
+            }
+            a {
+                color: blueviolet; 
+            }
+            h1 {
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+            input, label {
+                position: relative;
+                top: 55px;
+            }
+            .taz {
+                color: red;
+                font-size: 30px;
+                font-family:'Times New Roman', Times, serif;
+            }
+            .craz {
+                position: relative;
+                top: 40px;
+                font-size: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!-- search queries -->
+        <div class="taz">Advanced Search</div>
+        <div class="craz">Find pages with...</div>
+        <form action="https://www.google.com/search" class="form-example">
+            <div class="form-example">
+                <label for="name">all these words: </label>
+                <input type="text" name="q"/> 
+            </div>
+            <div class="form-example">
+                <label for="name">this exact word or phrase </label>
+                <input class="jfk-textinput" value="" id="CwYCWc" name="as_epq" type="text">
+            </div>
+            <div class="form-example">
+                <label for="name">any of these words </label>
+                <input class="jfk-textinput" value="" id="mSoczb" name="as_oq" type="text">
+            </div>
+            <div class="form-example">
+                <label for="name">none of these words </label>
+                <input class="jfk-textinput" value="" id="t2dX1c" type="text" name="as_eq"/>
+            </div>
+            <div class="baz">
+                <input type="submit" style="background-color: rgb(0, 119, 255); color: white" value="Advanced Search">
+            </div>
+        </form>
+        <h1>
+            <a href="index.html">GoogleSearch</a>
+        </h1>
+    </body>
+</html>
